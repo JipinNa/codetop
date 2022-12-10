@@ -6,5 +6,9 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcode.MinWindow("ADOBECODEBANC", "ABC"))
+	fmt.Println(leetcode.MinPathSum(
+		[][]int{
+			{1, 2, 3},
+			{4, 5, 6},
+		}))
 }
